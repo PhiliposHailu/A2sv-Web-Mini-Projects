@@ -1,33 +1,75 @@
-// 1st Grab html elements/tags from the page 
-const btn = document.querySelector('button');
-const inputField = document.querySelector('input');
+// 1st Grab the html tags we need 
+const addBtn = document.querySelector('button');
 const taskList = document.querySelector('ul');
+const inputField = document.querySelector('input')
 
-function addTask() {
-    // read the text on the input field 
-    const inputText = inputField.value.trim();
+addBtn.addEventListener('click', addTaskToList);
 
-    if (inputText === '') {
-        // if no input text don't add an empty task
+function addTaskToList() {
+
+    const task          = inputField.value.trim();
+    if (!task) {
         return;
     }
 
-    // initialize a task list
-    const task = document.createElement('li');
-    task.textContent = inputText;
-
-    // add to the list 
-    taskList.appendChild(task);
-
-    // Todo list Removal Logic 
-    function removeTask() {
-        taskList.removeChild(task);
-    }
-    task.addEventListener('click', removeTask);
-
-    // clear the text field 
+    addTask(task);
     inputField.value = '';
     inputField.focus();
 }
 
-btn.addEventListener('click', addTask);
+function addTask(task) {
+    // create all list items 
+    const li            = document.createElement('li')
+    const checkbox      = document.createElement('input');
+    const span          = document.createElement('span');
+    const editBtn       = document.createElement('button');
+    const deleteBtn     = document.createElement('button');
+
+    // specify the type 
+    checkbox.type           = 'checkbox';
+    span.textContent        = task;
+    editBtn.textContent     = 'Edit';
+    deleteBtn.textContent   = 'Delete';
+
+    // put together
+    li.append(checkbox, span, editBtn, deleteBtn);
+
+    // add to unordered list 
+    taskList.appendChild(li);
+
+    // add an event listener to each buttons of the task added 
+    checkbox.addEventListener('change', () => {
+        // on and off the mark and strickThrough 
+        // if the checkbox is chekced add the class completed to li class 
+        li.classList.toggle('completed', checkbox.checked);
+    });
+
+    editBtn.addEventListener('click', () => {
+        // first check if the task is in edit mode or not 
+        const editing = li.querySelector('input[type="text"]');
+        if (!editing) {
+            // go in to editing mode 
+            const input = document.createElement('input')
+            input.type = 'text';
+            input.value = span.textContent;
+            li.replaceChild(input, span);
+            input.focus();
+            editBtn.textContent = 'Save';
+        }
+        else {
+            // exit editing mode if save btn is clicked 
+            const newText = editing.value.trim();
+            if (newText) {
+                span.textContent = newText;
+                li.replaceChild(span, editing);
+                editBtn.textContent = 'Edit';
+            }
+
+        }
+    });
+
+    deleteBtn.addEventListener('click', () => {
+        li.remove();
+    });
+
+}
