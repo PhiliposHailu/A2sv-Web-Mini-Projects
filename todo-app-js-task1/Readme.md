@@ -17,8 +17,8 @@ A simple, clean, and interactive ToDo list application built using **HTML**, **C
 - Click the **"Add"** button to insert it into the task list.
 
 ![App Screenshot](images/Document.png)
-![App Screenshot](images/Document(1).png)
-![App Screenshot](images/Document(2).png)
+![App Screenshot](images/Document1.png)
+![App Screenshot](images/Document2.png)
 
 
 
@@ -26,7 +26,7 @@ A simple, clean, and interactive ToDo list application built using **HTML**, **C
 - Click the **checkbox** next to a task to mark it as completed.
 - The task will get a **line-through** to indicate completion.
 
-![App Screenshot](images/Document(3).png)
+![App Screenshot](images/Document3.png)
 
 
 ### 📝 Edit a Task
@@ -34,15 +34,15 @@ A simple, clean, and interactive ToDo list application built using **HTML**, **C
 - The task text becomes editable.
 - Click **"Save"** to confirm your changes.
 
-![App Screenshot](images/Document(4).png)
-![App Screenshot](images/Document(5).png)
+![App Screenshot](images/Document4.png)
+![App Screenshot](images/Document5.png)
 
 
 
 ### ❌ Remove a Task
 - Click the **"Delete"** button next to a task to remove it from the list.
 
-![App Screenshot](images/Document(6).png)
+![App Screenshot](images/Document6.png)
 
 
 ## 🛠️ Tech Stack
