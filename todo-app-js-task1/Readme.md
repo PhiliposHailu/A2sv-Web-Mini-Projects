@@ -1,13 +1,15 @@
 # ToDo List App
 
-This is a simple todo list app that has the following functionalities.
+This is a simple todo list app with the following functionalities:
 
-- Can add tasks
-- Can remove tasks
+- Add tasks
+- Remove tasks
 
 How it works?
-###Adding New Tasks
-- first input a task you want to do in the input box
-- click on the add button
-###Removing Completed Tasks
-- just click on the task
+
+### ✅ Adding New Tasks
+- Type a task in the input box.
+- Click the "Add" button to add it to the list.
+
+### ❌ Removing Completed Tasks
+- Click on any task to remove it from the list.
