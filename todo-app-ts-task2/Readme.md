@@ -69,6 +69,8 @@ node dist/todo.js
 
 ## 📂 File Structure
 
+```text
+
 ├── src/
 │ └── todo.ts
 ├── dist/
@@ -78,6 +80,7 @@ node dist/todo.js
 │ ├── 2.png
 │ └── ...
 └── README.md 
+```
 
 Other extra files and commented section of the todo.js are for the web version of the same functionalities.
 
