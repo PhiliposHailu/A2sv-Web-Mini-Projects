@@ -41,19 +41,24 @@ node dist/todo.js
 ```
 
 - **Add Task** → Press `1`, then type your task and hit Enter.
+
 ![App Screenshot](images/1.png)
 
 
 - **Edit Task** → Press `2`, enter the task number you want to edit, then enter the new task name.
+
 ![App Screenshot](images/2.png)
 
 - **Delete Task** → Press `3`, enter the task number you want to remove.
+
 ![App Screenshot](images/3.png)
 
 - **List Tasks** → Press `4` to see all tasks.
+
 ![App Screenshot](images/4.png)
 
 - **Exit** → Press `0` to quit the app.
+
 ![App Screenshot](images/5.png)
 
 ## 🛠️ Tech Stack
@@ -73,6 +78,7 @@ node dist/todo.js
 │ ├── 2.png
 │ └── ...
 └── README.md 
+
 Other extra files and commented section of the todo.js are for the web version of the same functionalities.
 
 
