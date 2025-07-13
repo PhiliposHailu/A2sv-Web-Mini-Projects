@@ -87,4 +87,4 @@ Other extra files and commented section of the todo.js are for the web version o
 
 ## 🧑‍💻 Author
 
-Created by **[Philipos Hailu]**
+Created by **Philipos Hailu**
