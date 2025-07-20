@@ -59,7 +59,7 @@ src/
 1. Clone this repo
 
 git clone https://github.com/PhiliposHailu/A2sv-Web-Mini-Projects
-cd react-todo-localstorage
+cd todo-app-react-task4
 
 2. Install dependencies
 
