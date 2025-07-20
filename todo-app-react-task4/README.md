@@ -1,43 +1,37 @@
-React Todo App with LocalStorage
+# React Todo App with LocalStorage
 
-🌊 Overview
+## 🌊 Overview
 
-This is a simple yet powerful Todo App built using React with TypeScript, featuring:
+This is a simple yet powerful Todo App built using **React** with **TypeScript**, featuring:
 
-Adding, editing, and deleting tasks
+- Adding, editing, and deleting tasks
+- Task completion toggle with checkbox
+- Persistent storage using `localStorage`
+- Component-based structure
+- Clean separation of CSS
 
-Task completion toggle with checkbox
+## 🔧 Tech Stack
 
-Persistent storage using localStorage
+- React (via Vite)
+- TypeScript
+- CSS Modules / App-wide CSS
+- LocalStorage API
 
-Component-based structure
+---
 
-Clean separation of CSS
+## 🔄 Features
 
-🔧 Tech Stack
+- **Add Task**: Type and press enter or click add button
+- **Edit Task**: Click edit, modify the task, then save or cancel
+- **Delete Task**: Click delete icon
+- **Mark Complete**: Click checkbox to toggle completion
+- **Persistent**: Tasks are saved in your browser's localStorage
 
-React (via Vite)
+---
 
-TypeScript
+## 📖 File Structure
 
-CSS Modules / App-wide CSS
-
-LocalStorage API
-
-🔄 Features
-
-Add Task: Type and press enter or click add button
-
-Edit Task: Click edit, modify the task, then save or cancel
-
-Delete Task: Click delete icon
-
-Mark Complete: Click checkbox to toggle completion
-
-Persistent: Tasks are saved in your browser's localStorage
-
-📖 File Structure
-
+```
 src/
 ├── components/
 │   ├── TodoItem.tsx
@@ -53,38 +47,51 @@ src/
 ├── main.tsx
 ├── index.css
 └── App.css
+```
 
-⚡ Setup & Run
+---
 
-1. Clone this repo
+## ⚡ Setup & Run
 
+### 1. Clone this repo
+
+```bash
 git clone https://github.com/PhiliposHailu/A2sv-Web-Mini-Projects
 cd todo-app-react-task4
+```
 
-2. Install dependencies
+### 2. Install dependencies
 
+```bash
 npm install
+```
 
-3. Run the development server
+### 3. Run the development server
 
+```bash
 npm run dev
+```
 
-Visit http://localhost:5173 in your browser to see the app.
+Visit `http://localhost:5173` in your browser to see the app.
 
-🚀 Future Improvements
+---
 
-Due date support
+## 🚀 Future Improvements
 
-Task categories (All, Completed, Incomplete ... )
+- Due date support
+- Task categories (All, Completed, Incomplete ... )
+- Drag and drop reordering
 
-Drag and drop reordering
+---
 
-👋 Acknowledgements
+## 👋 Acknowledgements
 
 Inspired by simple todo apps and React component design best practices.
 
-✉ Contact
+---
 
-Feel free to reach out at hailuphilipos@gmail.com or raise an issue/pull request.
+## ✉ Contact
+
+Feel free to reach out at [hailuphilipos@gmail.com](mailto\:hailuphilipos@gmail.com) or raise an issue/pull request.
 
 Happy coding! 🚀
