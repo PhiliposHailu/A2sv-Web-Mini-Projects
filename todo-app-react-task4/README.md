@@ -32,22 +32,35 @@ This is a simple yet powerful Todo App built using **React** with **TypeScript**
 ## 📖 File Structure
 
 ```
-src/
-├── components/
-│   ├── TodoItem.tsx
-│   ├── TodoList.tsx
-│   ├── crud/
-│   │   ├── addNewTask.tsx
-│   │   ├── deleteTask.tsx
-│   │   ├── getTasks.tsx
-│   │   └── updateTask.tsx
-│   └── types/
-│       └── TodoTypes.tsx
-|       └── TodoItemProps.tsx
-├── App.tsx
-├── main.tsx
-├── index.css
-└── App.css
+── src
+│   ├── App.tsx
+│   ├── componets
+│   │   ├── CRUD
+│   │   │   ├── addNewTask.tsx
+│   │   │   ├── deleteTask.tsx
+│   │   │   ├── getTasks.tsx
+│   │   │   ├── storage.tsx
+│   │   │   └── updateTask.tsx
+│   │   ├── TodoItem.tsx
+│   │   ├── TodoList.tsx
+│   │   └── types
+│   │       ├── TodoItemProps.tsx
+│   │       └── TodoTypes.tsx
+│   ├── css
+│   │   └── App.css
+│   ├── global.d.ts
+│   ├── images
+│   │   ├── addingNewTask_2.png
+│   │   ├── cancel_6_1.png
+│   │   ├── cancel_6_2.png
+│   │   ├── cancel_6_3.png
+│   │   ├── delete_7.png
+│   │   ├── edit4.png
+│   │   ├── first_1.png
+│   │   ├── save_5.png
+│   │   └── taskCompleted_3.png
+│   └── main.tsx
+
 ```
 
 ---
