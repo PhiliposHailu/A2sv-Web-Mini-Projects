@@ -77,6 +77,60 @@ Visit `http://localhost:5173` in your browser to see the app.
 
 ---
 
+## 📝 Features & Instructions
+
+### 1. ➕ Adding a New Task
+
+Click the input field at the top and type your task, then press **Enter** to add it to the list.
+
+![Add Task](./src/images/first_1.png)
+
+![Add Task](./src/images/addingNewTask_2.png)
+
+---
+
+### 2. ✅ Mark Task as Completed
+
+Click the **checkbox** next to a task to mark it as completed. Completed tasks will be **crossed out**.
+
+![Mark Completed](./src/images/taskCompleted_3.png)
+
+---
+
+### 3. ✏️ Edit a Task
+
+Click the **Edit** button on a task to change its text.
+
+![Edit Task](./src/images/edit4.png)
+
+---
+
+### 4. 💾 Save Changes
+
+After editing, click **Save** to confirm your changes.
+
+![Save Task](./src/images/save_5.png)
+
+---
+
+### 5. ❌ Cancel Edit
+
+Click **Cancel** if you want to discard your changes.
+
+![Cancel Edit](./src/images/cancel_6_1.png)
+
+![Cancel Edit](./src/images/cancel_6_2.png)
+
+![Cancel Edit](./src/images/cancel_6_3.png)
+
+---
+
+### 6. 🗑️ Delete a Task
+
+Click the **Delete** button to permanently remove a task from the list.
+
+![Delete Task](./src/images/delete_7.png)
+
 ## 🚀 Future Improvements
 
 - Due date support
