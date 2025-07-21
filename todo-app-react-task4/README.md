@@ -37,12 +37,13 @@ src/
 │   ├── TodoItem.tsx
 │   ├── TodoList.tsx
 │   ├── crud/
-│   │   ├── addNewTask.ts
-│   │   ├── deleteTask.ts
-│   │   ├── getTasks.ts
-│   │   └── updateTask.ts
+│   │   ├── addNewTask.tsx
+│   │   ├── deleteTask.tsx
+│   │   ├── getTasks.tsx
+│   │   └── updateTask.tsx
 │   └── types/
-│       └── TodoTypes.ts
+│       └── TodoTypes.tsx
+|       └── TodoItemProps.tsx
 ├── App.tsx
 ├── main.tsx
 ├── index.css
@@ -92,6 +93,6 @@ Inspired by simple todo apps and React component design best practices.
 
 ## ✉ Contact
 
-Feel free to reach out at [hailuphilipos@gmail.com](mailto\:hailuphilipos@gmail.com) or raise an issue/pull request.
+Feel free to reach out at [hailuphilipos@gmail.com](mailto:hailuphilipos@gmail.com) or raise an issue/pull request.
 
 Happy coding! 🚀

@@ -7,7 +7,6 @@ import deleteTodos from "./CRUD/deleteTask";
 import addNewTodo from "./CRUD/addNewTask";
 import { LOCAL_STORAGE_KEY } from "../componets/CRUD/storage";
 
-
 const TodoList = () => {
   const [todos, setTodos] = useState<TodoTypes[]>(getTodos());
   const [isEditingId, setIsEditingId] = useState<number | null>(null);

@@ -1,20 +1,7 @@
-import React from "react";
 import { FaSave, FaEdit, FaTrash } from "react-icons/fa";
+import type TodoItemProps from "./types/TodoItemProps";
 
-interface TodoItemProps {
-  task: string;
-  completed: boolean;
-  isEditing: boolean;
-  onStartEdit: () => void;
-  onCancelEdit: () => void;
-  onToggle: () => void;
-  onDelete: () => void;
-  onUpdate: () => void;
-  editedText: string;
-  setEditedText: React.Dispatch<React.SetStateAction<string>>;
-}
-
-const TodoItem: React.FC<TodoItemProps> = ({
+function TodoItem ({
   task,
   completed,
   isEditing,
@@ -25,7 +12,7 @@ const TodoItem: React.FC<TodoItemProps> = ({
   onUpdate,
   editedText,
   setEditedText,
-}) => {
+}: TodoItemProps) {
   return (
     <li className={`todo-item ${completed ? "completed" : ""}`}>
       <input type="checkbox" checked={completed} onChange={onToggle} />
