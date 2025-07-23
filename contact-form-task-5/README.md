@@ -56,9 +56,9 @@ This project implements a simple and elegant contact form built using React and 
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/PhiliposHailu/A2sv-Web-Mini-Projects/tree/main/contact-form-task-5
+   git clone https://github.com/PhiliposHailu/A2sv-Web-Mini-Projects.git
+   cd A2sv-Web-Mini-Projects/contact-form-task-5
 
-   cd contact-form-react
    ```
 
    ```bash
@@ -70,7 +70,8 @@ This project implements a simple and elegant contact form built using React and 
    npm run dev
    ```
 
-✍️ Author
-Philipos Hailu
-🔗 GitHub: @philiposhailu
+## Author
+
+**Philipos Hailu**  
+🔗 [GitHub @philiposhailu](https://github.com/philiposhailu)  
 📫 Email: hailuphilipos@gmail.com
