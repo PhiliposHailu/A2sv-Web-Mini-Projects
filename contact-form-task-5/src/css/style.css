@@ -1,0 +1,84 @@
+/* Base styles */
+body {
+    background-color: #121212;
+    color: #f0f0f0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+form {
+    background-color: #1e1e1e;
+    padding: 2rem;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.inputFieds {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+label {
+    margin-bottom: 0.4rem;
+    font-weight: 600;
+    color: #ddd;
+}
+
+input {
+    padding: 0.6rem;
+    border-radius: 8px;
+    border: 1px solid #444;
+    background-color: #2a2a2a;
+    color: #f0f0f0;
+    font-size: 1rem;
+    transition: border 0.3s, box-shadow 0.3s;
+}
+
+input:focus {
+    border-color: #00bcd4;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 188, 212, 0.3);
+}
+
+.error {
+    color: #ff6b6b;
+    font-size: 0.85rem;
+    margin-top: -0.6rem;
+    margin-bottom: 0.8rem;
+}
+
+/* Submit button */
+button {
+    padding: 0.75rem 1.5rem;
+    background-color: #00bcd4;
+    color: #121212;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0097a7;
+}
+.success {
+  color: #4caf50;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
