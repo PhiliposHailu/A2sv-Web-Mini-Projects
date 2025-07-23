@@ -56,7 +56,8 @@ This project implements a simple and elegant contact form built using React and 
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/yourusername/contact-form-react.git
+   git clone https://github.com/PhiliposHailu/A2sv-Web-Mini-Projects/tree/main/contact-form-task-5
+
    cd contact-form-react
    ```
 
