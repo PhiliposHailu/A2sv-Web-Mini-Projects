@@ -88,7 +88,7 @@ job-listing-app/
 │   ├── JobListType.ts   
 │   └── JobDescriptionType.ts 
 ├── public/
-│   └── screenshots/      
+│   └── imgs/      
 ├── styles/
 │   └── globals.css
 └── README.md
