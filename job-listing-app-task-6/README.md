@@ -2,8 +2,7 @@
 
 ## 🚀 Project Overview
 
-This project showcases a **Job Listing Application** built using **Next.js 14 App Router** with **TypeScript** and **Tailwind CSS**. The app displays a list of job opportunities with filterable and detailed job descriptions, optimized for performance and clean design.
-
+This project showcases a **Job Listing Application** built using **Next.js 14 App Router** with **TypeScript** and **Tailwind CSS**. The app displays a list of job opportunities with detailed job descriptions.
 ## 🔍 Features
 
 - **Static Job Data** loaded from a local JSON file
@@ -11,8 +10,6 @@ This project showcases a **Job Listing Application** built using **Next.js 14 Ap
 - **Detail Page**: Full description, responsibilities, candidate traits, job dates, and skills
 - **Clean Layout**: Responsive and accessible design
 - **Client-Side Navigation** using dynamic routing (`/jobs/[id]`)
-- **Dropdown Sorting** (UI only): "Most Relevant", "Least Relevant"
-- **Semantic HTML** and accessible components
 
 ## 🛠️ Technologies Used
 
@@ -23,21 +20,28 @@ This project showcases a **Job Listing Application** built using **Next.js 14 Ap
 
 ---
 
-## 💻 Screenshots
+## 🧭 Pages & Screenshots
 
-### 🏠 Home Page
-Displays all job cards with a sort dropdown and result count.
+### Front Page (`/`)
+**Welcome to Your Next Opportunity** landing page with a button to browse jobs.  
 
-![Home Page](./public/screenshots/home.png)
+![Home Page Screenshot](./public/imgs/homePage1.png)
 
----
+### Jobs Listing (`/jobs`)
+**Opportunities** header, showing count of `x results`, a `Sort by` dropdown, and a grid of job cards.  
 
-### 📄 Job Detail Page
-Full job information including ideal candidate, when & where, and about section.
+![Jobs Listing Screenshot](./public/imgs/jobList2.png)
 
-![Detail Page](./public/screenshots/detail.png)
+### Job Detail (`/jobs/[slug]`)
+Full job details, including:
+- Description  
+- Responsibilities list  
+- Ideal Candidate section  
+- When & Where details  
+- Sidebar with About, Categories, and Required Skills  
 
----
+![Job Detail Screenshot](./public/imgs/detail3.png)
+
 
 ## 📦 Getting Started
 
@@ -68,6 +72,7 @@ npm run dev
 
 ## Project structure
 
+```bash
 job-listing-app/
 ├── app/
 │   ├── page.tsx         
@@ -87,7 +92,7 @@ job-listing-app/
 ├── styles/
 │   └── globals.css
 └── README.md
-
+```
 
 ## 🔧 Tech Stack
 
