@@ -33,7 +33,7 @@ This project showcases a **Job Listing Application** built using **Next.js 14 Ap
 
 **Opportunities** header, showing count of `x results`, a `Sort by` dropdown, and a grid of job cards.
 
-![Jobs Listing Screenshot](./public/imgs/jobList2.png)
+![Jobs Listing Screenshot](./public/imgs/jobListT7_1.png)
 
 ### Job Detail (`/jobs/[slug]`)
 
@@ -45,7 +45,7 @@ Full job details, including:
 - When & Where details
 - Sidebar with About, Categories, and Required Skills
 
-![Job Detail Screenshot](./public/imgs/detail3.png)
+![Job Detail Screenshot](./public/imgs/jobDetailT7_2.png)
 
 ## 📦 Getting Started
 
