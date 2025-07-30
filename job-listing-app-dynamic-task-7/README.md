@@ -98,15 +98,6 @@ job-listing-app/
 └── README.md
 ```
 
-## 🔧 Tech Stack
-
-- **Next.js 13+ (App Router)**
-- **Tailwind CSS** for styling
-- **Static JSON** placed in `/public/data/jobs.json`
-- No external API calls or client-side fetching (pure static rendering)
-
----
-
 ## Author
 
 **Philipos Hailu**  
