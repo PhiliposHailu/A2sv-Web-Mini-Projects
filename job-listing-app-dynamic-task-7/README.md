@@ -59,7 +59,7 @@ Full job details, including:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/job-listing-app.git
+git clone https://github.com/PhiliposHailu/A2sv-Web-Mini-Projects/tree/main
 cd job-listing-app-dynamic-task-7
 ```
 
