@@ -29,8 +29,8 @@ A clean, modern Job Board application built with **Next.js** and **Tailwind CSS*
 
 ### 1. 📝 Signup Page
 
-![Signup Page](/public/imgs/task8_imgs/sighUp_1.png)
-![Signup Page](/public/imgs/task8_imgs/signUp_2.png)
+![Signup Page](./public/imgs/task8_imgs/sighUp_1.png)
+![Signup Page](./public/imgs/task8_imgs/signUp_2.png)
 
 
 
@@ -41,7 +41,7 @@ A clean, modern Job Board application built with **Next.js** and **Tailwind CSS*
 
 ### 2. 📧 OTP Sent to Gmail
 
-![OTP Sent](/public/imgs/task8_imgs/verify_4.png)
+![OTP Sent](./public/imgs/task8_imgs/verify_4.png)
 
 - Check your inbox for a 4-digit OTP code.  
 - Copy the OTP to continue verification.
@@ -50,7 +50,7 @@ A clean, modern Job Board application built with **Next.js** and **Tailwind CSS*
 
 ### 3. 🔐 Verification Page
 
-![Verification Page](/public/imgs/task8_imgs/verify_3.png)
+![Verification Page](./public/imgs/task8_imgs/verify_3.png)
 
 - Enter the OTP sent to your email.  
 - Click **Verify** to confirm your account.
@@ -59,8 +59,8 @@ A clean, modern Job Board application built with **Next.js** and **Tailwind CSS*
 
 ### 4. 🔑 Login Page
 
-![Login Page](/public/imgs/task8_imgs/login_5.png)
-![Login Page](/public/imgs/task8_imgs/login_6.png)
+![Login Page](./public/imgs/task8_imgs/login_5.png)
+![Login Page](./public/imgs/task8_imgs/login_6.png)
 
 
 - Input your **email** and **password**.  
@@ -70,7 +70,7 @@ A clean, modern Job Board application built with **Next.js** and **Tailwind CSS*
 
 ### 5. 🏡 Home Page
 
-![Home Page](/public/imgs/task8_imgs/Home_7.png)
+![Home Page](./public/imgs/task8_imgs/Home_7.png)
 
 - You will be redirected to the home page.  
 - Displays a welcome message with your **name** and **email**, confirming successful login.
