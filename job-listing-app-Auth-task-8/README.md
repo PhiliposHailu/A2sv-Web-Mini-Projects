@@ -1,4 +1,4 @@
-# 💼 Job Board Web App
+# 💼 Job Listing Application with Next.js Plus User Authentication
 
 A clean, modern Job Board application built with **Next.js** and **Tailwind CSS**. It includes user authentication, email verification, and a personalized welcome dashboard.
 
@@ -82,8 +82,8 @@ A clean, modern Job Board application built with **Next.js** and **Tailwind CSS*
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/job-listing-app.git
-cd job-listing-app-auth-task-8
+git clone https://github.com/PhiliposHailu/A2sv-Web-Mini-Projects/tree/main
+cd job-listing-app-Auth-task-8
 ```
 
 2. Install dependencies:
